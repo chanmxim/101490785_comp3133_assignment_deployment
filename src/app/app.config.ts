@@ -21,7 +21,7 @@ export const appConfig: ApplicationConfig = {
       const httpLink = inject(HttpLink);
       return {
         link: httpLink.create({
-          uri: 'http://localhost:4000/graphql'
+          uri: 'https://101490785-comp3133-assignment-backe.vercel.app/graphql'
         }),
         cache: new InMemoryCache()
       }
